@@ -36,7 +36,7 @@ int main() {
 				else {
 					box_no[box - 1] = 'X';
 				}
-				system("CLS");
+				system("clear");
 				cout << "\t\t  *****************************\n";
 				cout << "\t\t\t   Tik Tak Tow" << endl;
 				cout << "\t\t  *****************************\n";
