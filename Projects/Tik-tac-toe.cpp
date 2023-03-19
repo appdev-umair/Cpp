@@ -36,7 +36,7 @@ int main() {
 				else {
 					box_no[box - 1] = 'X';
 				}
-				system("clear");
+				system("cls");
 				cout << "\t\t  *****************************\n";
 				cout << "\t\t\t   Tik Tak Tow" << endl;
 				cout << "\t\t  *****************************\n";
@@ -81,15 +81,14 @@ int main() {
 					cout << "\t\t\tPlayer one has won.";
 					exit(0);
 				}
+			}
 				if(loopCount == 5) {
 					cout << "\t\t\tMatch is draw!";
 					exit(0);
 				}
-			}
 		}
 		loopCount++;
 	}
 	
 	return 0;
 }
-
